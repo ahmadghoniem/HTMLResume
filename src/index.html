@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700;800&amp;family=Open+Sans:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    /></head
+  ><!-- advanced react
+avoid using images w-6 text-slate-900 tables columns
+dedicated labeled sections experience skills education
+keywords
+use simple format
+-->
+  <body
+    class="flex font-opensans flex-row gap-4 bg-neutral-100 text-slate-900 print:px-10 print:pb-0"
+  >
+    <aside class="px-4 py-6 w-2/3">
+      <section class="b-2 border-b-[1px] border-neutral-800/20">
+        <h1 class="mt-1 mb-4 text-3xl font-opensans font-bold capitalize">
+          ahmad ibrahim amer ghoniem
+        </h1>
+        <p class="text-base/6">
+          <i class="fa fa-globe w-6 text-slate-900"></i>Alexandria, Egypt
+          (GMT+2)
+        </p>
+        <p class="text-base/6">
+          <a class="text-sky-600" href="tel:+20%20127%20789%201627"
+            ><i class="fa fa-phone w-6 text-slate-900"></i>+20 1277891627</a
+          >
+        </p>
+        <p class="text-base/6">
+          <a class="text-sky-600" href="mailto:ahmadghoniem@outlook.com"
+            ><i class="fa fa-envelope w-6 text-slate-900"></i
+            >ahmadghoniem@outlook.com</a
+          >
+        </p>
+        <p class="text-base/6">
+          <a class="text-sky-600" href="https://ahmadghoniem.me/"
+            ><i class="fa fa-globe w-6 text-slate-900"></i>ahmadghoniem.me</a
+          >
+        </p>
+        <p class="text-base/6">
+          <a class="text-sky-600" href="https://github.com/ahmadghoniem"
+            ><i class="fa fa-github w-6 text-slate-900"></i
+            >github.com/ahmadghoniem</a
+          >
+        </p>
+        <p class="text-base/6">
+          <a
+            class="text-sky-600"
+            href="https://www.linkedin.com/in/ahmad-ghoniem/"
+            ><i class="fa fa-linkedin w-6 text-slate-900"></i
+            >linkedin.com/in/ahmad-ghoniem/</a
+          >
+        </p>
+      </section>
+      <section
+        id="Languages"
+        class="mb-2 pb-2 border-b-[1px] border-neutral-800/20"
+      >
+        <h2
+          class="mt-1 mb-2 text-3xl text-teal-600 font-bold font-garamond underline"
+        >
+          Languages
+        </h2>
+        <p class="text-base/6">Arabic - Native</p>
+        <p class="text-base/6">English - Proficient</p>
+        <p class="text-base/6">German - Beginner</p>
+      </section>
+      <section
+        id="Education"
+        class="mb-2 pb-2 border-b-[1px] border-neutral-800/20"
+      >
+        <h2
+          class="mt-1 mb-2 text-3xl text-teal-600 font-bold font-garamond underline"
+        >
+          Education
+        </h2>
+        <h4 class="mt-1 mb-2">
+          B.S. in Electrical Engineering<span class="block"
+            >Power and Machines Department</span
+          >
+        </h4>
+        <p class="text-base/6">Alexandria university - Alexandria, Egypt</p>
+        <p class="text-base/6">Undergraduate, 2018 - 2023</p>
+        <!-- 
+        <h4 class="mt-1 mb-2">
+          <i class="fa fa-angle-right mr-1"></i>Scrimba
+          <span class="block">Online learning platform</span>
+          <span class="block"
+            >Relative courses, Beginner's Tutorial for React JavaScript
+            Library</span
+          >
+          <span class="block"
+            >Relative courses, Learn Class Components in React</span
+          >
+        </h4>
+        <h4 class="mt-1 mb-2">
+          <i class="fa fa-angle-right mr-1"></i>FreeCodeCamp
+          <span class="block">nonprofit online learning platform</span>
+        </h4> -->
+      </section>
+      <section id="Skills" class="mb-2 pb-2">
+        <h2
+          class="mt-1 mb-2 text-3xl text-teal-600 font-bold font-garamond underline"
+        >
+          Skills
+        </h2>
+        <div class="flex flex-col gap-2">
+          <div id="markup-languages">
+            <h3 class="capitalize font-semibold text-slate-950 text-base">
+              Markup languages
+            </h3>
+            <div class="flex flex-col">
+              <span><i class="fa fa-angle-right mr-1"></i>HTML 5</span>
+              <span><i class="fa fa-angle-right mr-1"></i>CSS 3</span>
+            </div>
+          </div>
+          <div id="programming-languages">
+            <h3 class="capitalize font-semibold text-slate-950 text-base">
+              programming languages
+            </h3>
+            <div class="flex flex-col">
+              <span><i class="fa fa-angle-right mr-1"></i>Javascript</span>
+              <span><i class="fa fa-angle-right mr-1"></i>Typescript</span>
+              <span><i class="fa fa-angle-right mr-1"></i>C</span>
+            </div>
+          </div>
+          <div id="Frameworks">
+            <h3 class="capitalize font-semibold text-slate-950 text-base">
+              Frameworks & Libraries
+            </h3>
+            <div class="flex flex-col">
+              <span><i class="fa fa-angle-right mr-1"></i>ReactJs</span>
+              <span><i class="fa fa-angle-right mr-1"></i>Bootstrap</span>
+              <span
+                ><i class="fa fa-angle-right mr-1"></i>TailwindCSS
+                <span class="block text-sm text-slate-700"
+                  >Utility-first CSS framework</span
+                ></span
+              >
+              <span
+                ><i class="fa fa-angle-right mr-1"></i>RadixUI
+                <span class="block text-sm text-slate-700"
+                  >Accessible Components library</span
+                ></span
+              >
+              <span
+                ><i class="fa fa-angle-right mr-1"></i>Redux & Redux Toolkit
+                <span class="block text-sm text-slate-700"
+                  >State managment Library</span
+                ></span
+              >
+              <span
+                ><i class="fa fa-angle-right mr-1"></i>React Router 6
+                <span class="block text-sm text-slate-700"
+                  >SPA Client Side Routing library</span
+                ></span
+              >
+            </div>
+          </div>
+          <div id="Tools &amp; Technologies">
+            <h3 class="capitalize font-semibold text-slate-950 text-base">
+              Tools & Technologies
+            </h3>
+            <div class="flex flex-col">
+              <span
+                ><i class="fa fa-angle-right mr-1"></i>Visual Studio Code<span
+                  class="block text-sm text-slate-700"
+                >
+                  rocking TokyoNight storm theme</span
+                ></span
+              >
+              <span
+                ><i class="fa fa-angle-right mr-1"></i>Git
+                <span class="block text-sm text-slate-700"
+                  >Version Control</span
+                ></span
+              >
+              <span
+                ><i class="fa fa-angle-right mr-1"></i>Github
+                <span class="block text-sm text-slate-700"
+                  >Git repositories hosting</span
+                ></span
+              >
+              <span
+                ><i class="fa fa-angle-right mr-1"></i>Vite
+                <span class="block text-sm text-slate-700"
+                  >Blazing fast development env</span
+                ></span
+              >
+              <span><i class="fa fa-angle-right mr-1"></i>Figma</span>
+              <span class="block text-sm text-slate-700"
+                >Design tool for frontend developers</span
+              >
+            </div>
+          </div>
+          <div id="Testing">
+            <h3 class="capitalize font-semibold text-slate-950 text-base">
+              Testing
+            </h3>
+            <div class="flex flex-col">
+              <span>
+                <i class="fa fa-angle-right mr-1"></i>Jest
+                <span class="block text-sm text-slate-700"
+                  >JavaScript testing framework</span
+                ></span
+              >
+              <span>
+                <i class="fa fa-angle-right mr-1"></i>Vitest
+                <span class="block text-sm text-slate-700"
+                  >Vite-native unit test framework</span
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </aside>
+    <main class="px-4 py-6">
+      <section
+        id="Summary"
+        class="mb-2 pb-2 border-b-[1px] border-neutral-800/20"
+      >
+        <h2
+          class="mt-1 mb-2 text-3xl text-teal-600 font-bold font-garamond underline"
+        >
+          Summary
+        </h2>
+        <p class="text-base/6">
+          Detail-oriented and self-motivated frontend developer with strong
+          English proficiency, enabling seamless communication with clients and
+          within the team. Specialized in building user-friendly websites and
+          Actively learning the foundations designing visually captivating
+          interfaces.Familiar with Web3 technologies, including dApps, NFTs, and
+          cryptocurrencies. Passionate about web development and constantly
+          seeking opportunities to further enhance my skills.
+        </p>
+      </section>
+      <section
+        id="Experience"
+        class="mb-2 pb-2 border-b-[1px] border-neutral-800/20"
+      >
+        <h2
+          class="mt-1 mb-2 text-3xl text-teal-600 font-bold font-garamond underline"
+        >
+          Experience
+        </h2>
+        <h3 class="mt-1 font-semibold">Optimum</h3>
+        <h4 class="m-0 font-semibold">
+          Customer service representative - Full Time
+        </h4>
+        <p class="text-base/6">Jul 2021 - Nov 2021</p>
+        <p class="text-base/6">Jul 2022 - Nov 2022</p>
+      </section>
+      <section id="Projects" class="mb-2 pb-2">
+        <h2
+          class="mt-1 mb-2 text-3xl text-teal-600 font-bold font-garamond underline"
+        >
+          Projects
+        </h2>
+        <div class="mb-2">
+          <h4 class="mt-1 mb-2 font-semibold">
+            <span class="font-mono">1.</span> My Portfolio
+          </h4>
+          <p class="text-base/6"></p>
+          <ul class="list-inside list-disc">
+            <li>
+              Utilized RadixUI headless components (Popover, Toast, Taps) to
+              create an accessible and user-friendly website.
+            </li>
+            <li>
+              Utilized TailwindCSS to quickly write and maintain UI code in one
+              place also add support for dark theme and responsive layout using
+              dark and media queries modifiers.
+            </li>
+            <li>
+              Developed a custom hook called useScrollSpy to automatically
+              update navigation based on scroll, providing a better alternative
+              to the intersection observer for this specific use case.
+            </li>
+            <li>
+              Implemented a flashlight effect on hover for the cards components
+              using vanilla JavaScript and CSS variables.
+            </li>
+            <li>
+              Enhanced the contact me section by utilizing the tap
+              functionality, allowing potential clients and recruiters to
+              contact me either through a direct email sent to my inbox using
+              emailJS or by booking my calendar through the cal.com embed.
+            </li>
+            <li>
+              Maintained good coding pactices, including reusable components and
+              a clear separation of concerns.
+            </li>
+          </ul>
+          <p class="text-base/6 mt-2">
+            View at
+            <a class="text-sky-600" href="https://ahmadghoniem.me/"
+              >ahmadghoniem.me</a
+            >
+          </p>
+        </div>
+
+        <div class="mb-2">
+          <h4 class="mt-1 mb-2 font-semibold">
+            <span class="font-mono">2.</span> VansLife
+          </h4>
+          <ul class="list-inside list-disc">
+            <li>
+              learned about the different types of routes, including those that
+              support the new Data APIs and those that do not and how to create,
+              protect and use them.
+            </li>
+            <li>
+              learned about regular links and navlink, how to add a Layout and
+              Index routes, Relative paths,useNavigate, useNavigation
+              useLocation.
+            </li>
+            <li>
+              learned about the new Loaders and Actions data APIs and how to
+              defer loading the component while awaiting the data using defer()
+              method and Await component also utlized React v18 suspense to
+              display a fallback (skeleton theme) until its children finish
+              loading.
+            </li>
+            <li>
+              used mirageJS as an API mocking library and finally switched to
+              firebase.
+            </li>
+          </ul>
+          <p class="text-base/6 mt-2">
+            View at
+            <a class="text-sky-600" href="https://vanslife.ahmadghoniem.me/"
+              >vanslife.ahmadghoniem.me</a
+            >
+          </p>
+        </div>
+
+        <div class="mb-2">
+          <h4 class="mt-1 mb-2 font-semibold">
+            <span class="font-mono">3.</span> Quizzical
+          </h4>
+          <p class="text-base/6 mb-2">
+            Quizzical App was the last and the corner stone project while
+            learning React through Scrimba the challenge was to code it from
+            scratch as as students we were provided only the API endpoint for
+            the Open Trivia DB and the pseudo design for the app and that's it
+          </p>
+
+          <ul class="list-inside list-disc">
+            <li>
+              added the support of choosing the number of questions, questions
+              difficulty and the category (pulled from open trivia website
+              selectbox with JS and the emojies were added seamlessly with a
+              single chatGPT prompt).
+            </li>
+            <li>
+              Added the option for the user to choose between answering all the
+              questions before revealing the answers or not
+            </li>
+            <li>
+              Added the ability of starring certain question so the user can
+              have quiz solely on them
+            </li>
+            <li>
+              Added skeleton loading to mimic the structure and the look of the
+              entire view as It gives an idea regarding what kind of content is
+              being loading which in this case the questions.
+            </li>
+          </ul>
+          <p class="text-base/6 mt-2">
+            View at
+            <a class="text-sky-600" href="http://quizzical.ahmadghoniem.me/"
+              >quizzical.ahmadghoniem.me</a
+            >
+          </p>
+        </div>
+        <div class="mb-2">
+          <h4 class="mt-1 mb-2 font-semibold">
+            <span class="font-mono">3.</span> Chesters
+          </h4>
+          <p class="text-base/6 mb-2">
+            Chesters was the very first react project that I've made as I wanted
+            to create an NFT Community driven NFT project where you get to pick
+            which NFTs will be purchased with project's funds and airdropped
+            back to holders from Top tier projects to small ones. the logo,
+            website design
+          </p>
+
+          <ul class="list-inside list-disc">
+            <li>
+              added the support of choosing the number of questions, questions
+              difficulty and the category (pulled from open trivia website
+              selectbox with JS and the emojies were added seamlessly with a
+              single chatGPT prompt).
+            </li>
+            <li>
+              Added the option for the user to choose between answering all the
+              questions before revealing the answers or not
+            </li>
+            <li>
+              Added the ability of starring certain question so the user can
+              have quiz solely on them
+            </li>
+            <li>
+              Added skeleton loading to mimic the structure and the look of the
+              entire view as It gives an idea regarding what kind of content is
+              being loading which in this case the questions.
+            </li>
+          </ul>
+          <p class="text-base/6 mt-2">
+            View at
+            <a class="text-sky-600" href="http://quizzical.ahmadghoniem.me/"
+              >quizzical.ahmadghoniem.me</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section
+        id="Certificates"
+        class="mb-2 pb-2 border-b-[1px] border-neutral-800/20"
+      >
+        <h2
+          class="mt-1 mb-2 text-3xl text-teal-600 font-bold font-garamond underline"
+        >
+          Certificates
+        </h2>
+        <h3 class="mt-1 font-semibold">Advanced React</h3>
+        <h4 class="m-0 font-medium">
+          Advanced React from Coursera taught by Meta
+        </h4>
+        <p class="text-base/6">Completion date: <date>March 18, 2023</date></p>
+        <a
+          class="text-sky-600"
+          href="https://coursera.org/share/5ed9ee349e6c9392d495b7574b5f859e"
+          >View Certificate</a
+        >
+      </section>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/282bcf757e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!--     <div class="my-5 flex flex-col print:hidden">
+      <button onclick="window.print()">Print Resume</button>
+    </div> -->
+<!-- college coding projects -->
+<!--        
+        <h4 class="mt-1 mb-2">
+          <i class="fa fa-angle-right mr-1"></i>Self balancing robot
+        </h4>
+        <p class="text-base/6">
+          under the supervision of doctor Mohamad El-habrouk
+        </p>
+
+        <h4 class="mt-1 mb-2">
+          <i class="fa fa-angle-right mr-1"></i>Remote controlled counter with
+          web interface
+        </h4>
+        <p class="text-base/6">
+          under the supervision of doctor Hossam Mostafa
+        </p>
+
+        <h4 class="mt-1 mb-2">
+          <i class="fa fa-angle-right mr-1"></i>Obstacle avoiding/Line following
+          robot
+        </h4>
+        <p class="text-base/6">
+          under the supervision of doctor Mohamad El-habrouk
+        </p> -->

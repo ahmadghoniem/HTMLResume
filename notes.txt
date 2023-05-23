@@ -1,0 +1,78 @@
+https://ahmadghoniem.vercel.app/
+https://ahmadghoniem.github.io/
+visualize your laptop pack!
+ahmadghoniem@outlook.com
+accomplished 141 
+Trainglz font : Mayak Ultra Extended Medium
+color-scheme: dark;
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+React & redux
+testing using vitest and jest
+responsive
+////////////
+TO-DO
+1) tailwind @apply √
+2) form emailjs √
+3) react-form-hooks √
+4) toast √
+5) logo √
+6) merge sort √
+7) Build a Toast Notification √
+8)cards component abstraction √
+9)redesign header (no need ig?)
+
+-- scrollbar both portfolio & taps section
+-- better cv use ats tips
+-- tailor to trianglz
+-- tailor to yomicepa
+-- ramp !!!
+-- portfolio
+-- timeline for  emthanat and subjects gadwal
+
+////////////
+
+1- customize you cv based on each job desc you apply to
+2) use examples to showcase your experience & skills
+3) clearly list out the tchnologies & tools 
+you have hands on experience with
+
+resume www.hiration.com
+RAMP
+vodanship: https://forms.office.com/Pages/ResponsePage.aspx?id=x07VKCEiF0essH-MNzWQSCuwCGZ3eclAmz5uwPwlAn1UM0ZHSzZBWFMzSVMwQ1JSR1VCMjVLVlQwRy4u
+EJAD:https://docs.google.com/forms/d/e/1FAIpQLScfpB3DMqFnlN6izW3l_MXueLaOw2-4jgAhaXUVkH13yLfcHQ/viewform
+
+// designs: converting figma files to live websites
+// code: 
+turnaround time:A remarkable turnaround time and exceptional delivery efficiency for your porjects,
+consistently exceeding expectations as a web developer, ensuring timely and flawless project completion.
+
+Frontend developer specialized in building (and Infrequently designing) aesthetically pleasing websites.
+
+
+
+
+typescript (novice)
+nodeJS(novice)
+NextJs
+
+git
+vscode
+Vite
+firebase
+
+currently seeking an internship position to further polish my skills
+converting figma designs to aesthetically pleasing websites
+competence
+enthusiasm
+commitment
+humility
+
+
+
+projects
+vanslife
+portfolio2
+chesters
+quizapp
+tenziesapp
+hobank
